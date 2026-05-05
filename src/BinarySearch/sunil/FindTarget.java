@@ -21,7 +21,7 @@ public class FindTarget {
             if (nums[mid] == target) {
                 //storing the value.
                 ans = mid;
-                last = mid -1;
+                last = mid -1;        //if i remoove this im not getting any output.
             } else if (nums[mid] < target) {
                 start = mid + 1;
             } else {
