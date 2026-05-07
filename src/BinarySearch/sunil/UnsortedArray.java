@@ -20,7 +20,7 @@ public class UnsortedArray {
                 return mid;
 
             } else if (nums[mid] < target) {
-                end = mid - 1;
+                end = mid - 1;   //opposite sorted array.
             } else {
                 start = mid + 1;
             }
