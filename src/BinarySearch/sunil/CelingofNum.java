@@ -13,7 +13,7 @@ public class CelingofNum {
         int start = 0;
         int end = nums.length -1;
         int ans = -1;
-        while (start <= end) {
+        while (start <= end) {   //lastly start becomes greater than end that is where while loop breaks.
             int mid = start + (end - start) /2;
             //we targeting 15 which is not present in the array we are expecting 16.
             if (nums[mid] == target) {
