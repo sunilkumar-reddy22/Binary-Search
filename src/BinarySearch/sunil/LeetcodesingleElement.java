@@ -19,7 +19,7 @@ public class LeetcodesingleElement {
             }
             if(nums[mid] == nums[mid + 1]) {
                 //if the pair matches the single element would be on the right side
-                left = mid + 2;
+                left = mid + 2; //why 2 why not 1 or other number how exactly it is giving ans with + 2 lastly
             }
             else {
                 //if the pair is not equal to means already shift has happend.so go left to check.
