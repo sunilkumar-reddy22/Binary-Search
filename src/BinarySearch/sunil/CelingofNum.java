@@ -22,7 +22,7 @@ public class CelingofNum {
                 start = mid + 1;
             } else {  //if mid > target store the valid celing in the ans and check end = mid -1 if any valid element gonna find,if not return ans.
             ans = mid;
-                end = mid - 1;
+                end = mid - 1; //
             }
         }
         return ans;
