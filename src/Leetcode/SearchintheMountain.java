@@ -1,5 +1,6 @@
 package Leetcode;
 //https://leetcode.com/problems/find-in-mountain-array/description/
+//leetcode 1095 peak element.
 public class SearchintheMountain {
     public static void main(String[] args) {
         int[] mountain = {1, 2, 3, 4, 5, 3, 1};
