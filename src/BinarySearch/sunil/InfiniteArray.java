@@ -3,7 +3,7 @@ package BinarySearch.sunil;
 public class InfiniteArray {
     public static void main(String[] args) {
         int[] nums = {2, 4, 5, 6, 7, 16, 18, 19, 20};
-        int target = 7;
+        int target = 19;  //array went out of bounds need to update the code.
       int ans =  find(nums, target);
         System.out.println(ans);
 
@@ -27,7 +27,7 @@ public class InfiniteArray {
             int mid = start + (end - start + 1) / 2;
             if (target < nums[mid]) {
                 start = mid + 1;
-            } else if (target < nums[mid]) {
+            } else if (target > nums[mid]) {
                 end = mid - 1;
             } else {
                 return mid;
