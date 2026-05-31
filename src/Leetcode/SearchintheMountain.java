@@ -25,7 +25,7 @@ public class SearchintheMountain {
                 start = mid + 1; //if mid < mid + 1; it is in the ascedning order for better possibilites to check it goes further.
             }
         }
-        return start;
+        return start;//finding the pivot.
     }
 
     static int order(int[] mountain, int target, int start, int end) {
