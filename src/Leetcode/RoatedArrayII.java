@@ -18,7 +18,7 @@ public class RoatedArrayII {
             if(target == nums[mid]){
                 return true;
             }
-            //Finding duplicates
+            //Finding duplicates. go left to right, got mid to end. to check the duplicates.
             if(nums[start] == nums[mid] && nums[mid] == nums[end]){
                 start++;
                 end--;
