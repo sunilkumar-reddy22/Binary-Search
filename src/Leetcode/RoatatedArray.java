@@ -5,7 +5,6 @@ public class RoatatedArray {
         int[] nums = {4, 5, 6, 7, 0, 1, 2};
         int target = 2;
         int ans = search(nums,target);
-
         System.out.println(ans);
     }
         static int search(int [] nums,int target) {
