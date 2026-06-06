@@ -26,7 +26,7 @@ public class MinimumRotated {
             //case 2.finding mid is previous.
             if (mid > start && nums[mid] < nums[mid - 1]) {
                 return mid - 1;
-            }
+            }//mid goes right to left.
             if (nums[start] >= nums[mid]) {
                 end = mid - 1;
             } else {
