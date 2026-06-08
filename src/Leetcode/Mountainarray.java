@@ -13,7 +13,7 @@ public class Mountainarray {
         while (start < end) {
             int mid = start + (end - start) / 2;
             //if mid is greater than the mid + 1 the it is in the decending order. so we store the mid val in the end.
-            if (nums[mid] > nums[mid + 1]) {
+            if (nums[mid] > nums[mid + 1]) { //left to righ
                 end = mid;
             } else {
                 start = mid + 1;
