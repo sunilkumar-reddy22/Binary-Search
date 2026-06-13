@@ -6,7 +6,7 @@ public class Mountainarray {
        int ans =  search(nums);
         System.out.println(ans);
     }
-
+//
     static int search(int[] nums) {
         int start = 0;
         int end = nums.length - 1;
