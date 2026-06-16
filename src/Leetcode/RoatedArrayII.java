@@ -6,6 +6,7 @@ public class RoatedArrayII {
        int target = 0;
      boolean  ans =  search(nums,target);
         System.out.println(ans);
+        //rotating array
     }
     static boolean search(int [] nums, int target){
         int start = 0;
