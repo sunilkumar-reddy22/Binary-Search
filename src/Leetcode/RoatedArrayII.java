@@ -4,8 +4,8 @@ public class RoatedArrayII {
     public static void main(String[] args) {
         int [] nums = {2,5,6,0,0,1,2};
        int target = 0;
-     boolean  ans =  search(nums,target);
-        System.out.println(ans);
+     boolean  result =  search(nums,target);
+        System.out.println(result);
         //rotating array
     }
     static boolean search(int [] nums, int target){
