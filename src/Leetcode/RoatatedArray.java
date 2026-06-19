@@ -16,7 +16,7 @@ public class RoatatedArray {
             if (nums[pivot] == target) {
                 return pivot;
             }
-            //search in lefthalf.
+            //search in lefthalf
             if (target >= nums[0]) {
                 return binarysearch(nums, target, 0, pivot - 1);
             }
