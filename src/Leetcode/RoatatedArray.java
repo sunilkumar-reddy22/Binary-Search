@@ -63,3 +63,20 @@ public class RoatatedArray {
         return -1;
     }
 }
+for (int i = 0; i < n; i++) {
+
+        while (left <= right) {
+
+        if (starts[mid][0] >= target) {
+index = starts[mid][1];
+right = mid - 1;
+        } else {
+left = mid + 1;
+        }
+        }
+
+ans[i] = index;
+}
+
+        return ans;
+}
