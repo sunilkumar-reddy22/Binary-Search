@@ -2,7 +2,7 @@ package Leetcode;
 
 public class Mountainarray {
     public static void main(String[] args) {
-        int[] nums = {0, 10,0};
+        int[] nums = {0, 10,10};
        int ans =  search(nums);
         System.out.println(ans);
     }
