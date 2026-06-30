@@ -18,7 +18,7 @@ public class FloorofNum {
                 return mid;
             } else if (nums[mid] < target) {
             ans = mid;
-                //if it is less the target the ans might be in lft the smallest side so we assume mid is ans for now.
+                //if it is less the target the ans might be in lft the smallest side so we assume mid is answer for now.
                 start = mid + 1;
             } else {
                 end = mid - 1;
